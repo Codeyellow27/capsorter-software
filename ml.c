@@ -94,7 +94,12 @@ int main(void) {
     }
     int found = 0;
     IplImage *im;
-    CvCapture *cam = cvCaptureFromCAM(CAMERA_ID);
+    CvCapture *cam;
+    for (int i = 1; i < 60; i++) {
+        cam = cvCaptureFromCAM(i);
+        if (!cam) fprintf (fp, "Failed to open camera %d.\n", i);
+        else break;
+    }
     if (!cam) {
         fprintf (fp, "Failed to open camera.\n");
         return (-1);
