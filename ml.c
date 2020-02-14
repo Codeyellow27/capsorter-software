@@ -14,7 +14,7 @@
 #define SEND_COLOUR 1       // Used to tell capsorter.exe that we are sending a colour
 #define CAMERA_READY 2      // Used to tell capsorter.exe that the calibration is complete
 
-#define SCREEN 0            // Enable live stream of camera, with points indicating Y1 and Y2. No info is sent to capsorter.exe. Use for debugging (run ml.exe)
+#define SCREEN 1            // Enable live stream of camera, with points indicating Y1 and Y2. No info is sent to capsorter.exe. Use for debugging (run ml.exe)
 
 //     ** WARNING **    //
 
@@ -26,7 +26,7 @@
    enabled. The debug file is replaced every
    time ml.exe is run.
 */
-#define DEBUG 0             // Enable debugging statements
+#define DEBUG 1             // Enable debugging statements
 
 #define CAMERA_ID 1                                // Camera number, change if ml.exe exits with "Failed to open camera." (0 is usually built in webcam, so try increasing)
 
