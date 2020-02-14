@@ -1,3 +1,5 @@
+//Yoooo
+
 #include "resource.h" 
 
 const char g_szClassName[] = "myWindowClass";
