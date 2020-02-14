@@ -1,0 +1,834 @@
+Calibrating...
+i = 240, red_val=182
+i = 241, red_val=180
+i = 242, red_val=180
+i = 243, red_val=180
+i = 244, red_val=180
+i = 245, red_val=182
+i = 246, red_val=180
+i = 247, red_val=182
+i = 248, red_val=179
+i = 249, red_val=181
+i = 250, red_val=181
+i = 251, red_val=181
+i = 252, red_val=177
+i = 253, red_val=177
+i = 254, red_val=175
+i = 255, red_val=176
+i = 256, red_val=175
+i = 257, red_val=174
+i = 258, red_val=175
+i = 259, red_val=174
+i = 260, red_val=170
+i = 261, red_val=169
+i = 262, red_val=164
+i = 263, red_val=163
+i = 264, red_val=164
+i = 265, red_val=154
+i = 266, red_val=146
+i = 267, red_val=129
+i = 268, red_val=101
+i = 269, red_val=68
+i = 270, red_val=51
+i = 271, red_val=45
+i = 272, red_val=34
+i = 273, red_val=47
+i = 274, red_val=60
+i = 275, red_val=92
+i = 276, red_val=122
+i = 277, red_val=141
+Finished calibration!
+
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 137
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 124
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 137
+Cap identification, intensity difference is 125
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 141
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 126
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 122
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 125
+Cap identification, intensity difference is 137
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 138
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 137
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 140
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 123
+Cap identification, intensity difference is 124
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 124
+Cap identification, intensity difference is 124
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 138
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 137
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 125
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 126
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 138
+Cap identification, intensity difference is 126
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 125
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 125
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 126
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 125
+Cap identification, intensity difference is 126
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 142
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 138
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 126
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 125
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 140
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 126
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 126
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 138
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 124
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 123
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 125
+Cap identification, intensity difference is 126
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 138
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 137
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 123
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 126
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 122
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 137
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 126
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 125
+Cap identification, intensity difference is 126
+Cap identification, intensity difference is 112
+Cap identification, intensity difference is 115
+Cap identification, intensity difference is 113
+Cap identification, intensity difference is 109
+Cap identification, intensity difference is 112
+Cap identification, intensity difference is 108
+Cap identification, intensity difference is 113
+Cap identification, intensity difference is 112
+Cap identification, intensity difference is 109
+Cap identification, intensity difference is 105
+Cap identification, intensity difference is 104
+Cap identification, intensity difference is 108
+Cap identification, intensity difference is 107
+Cap identification, intensity difference is 110
+Cap identification, intensity difference is 109
+Cap identification, intensity difference is 112
+Cap identification, intensity difference is 114
+Cap identification, intensity difference is 112
+Cap identification, intensity difference is 110
+Cap identification, intensity difference is 110
+Cap identification, intensity difference is 124
+Cap identification, intensity difference is 116
+Cap identification, intensity difference is 121
+Cap identification, intensity difference is 117
+Cap identification, intensity difference is 109
+Cap identification, intensity difference is 115
+Cap identification, intensity difference is 114
+Cap identification, intensity difference is 118
+Cap identification, intensity difference is 120
+Cap identification, intensity difference is 119
+Cap identification, intensity difference is 120
+Cap identification, intensity difference is 121
+Cap identification, intensity difference is 119
+Cap identification, intensity difference is 122
+Cap identification, intensity difference is 122
+Cap identification, intensity difference is 119
+Cap identification, intensity difference is 125
+Cap identification, intensity difference is 113
+Cap identification, intensity difference is 115
+Cap identification, intensity difference is 119
+Cap identification, intensity difference is 121
+Cap identification, intensity difference is 120
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 114
+Cap identification, intensity difference is 126
+Cap identification, intensity difference is 122
+Cap identification, intensity difference is 123
+Cap identification, intensity difference is 118
+Cap identification, intensity difference is 124
+Cap identification, intensity difference is 124
+Cap identification, intensity difference is 125
+Cap identification, intensity difference is 113
+Cap identification, intensity difference is 122
+Cap identification, intensity difference is 11
+Cap identified! Analysing colour...
+Cap parameters: diff2: 70, diff: 130
+Colour identified is r=20 g=29 b=87
+
+Cap identification, intensity difference is 3
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=16 b=81
+
+Cap identification, intensity difference is 5
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=17 b=86
+
+Cap identification, intensity difference is 3
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=17 b=85
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=86
+
+Cap identification, intensity difference is 2
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=17 b=85
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=17 b=85
+
+Cap identification, intensity difference is 3
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=17 b=85
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=17 b=85
+
+Cap identification, intensity difference is 4
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=85
+
+Cap identification, intensity difference is 2
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=84
+
+Cap identification, intensity difference is 7
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=85
+
+Cap identification, intensity difference is 0
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=84
+
+Cap identification, intensity difference is 0
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=85
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=84
+
+Cap identification, intensity difference is 2
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=85
+
+Cap identification, intensity difference is 4
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=85
+
+Cap identification, intensity difference is 4
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=84
+
+Cap identification, intensity difference is 2
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=85
+
+Cap identification, intensity difference is 4
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=84
+
+Cap identification, intensity difference is 4
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=85
+
+Cap identification, intensity difference is 2
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=85
+
+Cap identification, intensity difference is 3
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=18 b=85
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=85
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=18 b=84
+
+Cap identification, intensity difference is 0
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=85
+
+Cap identification, intensity difference is 7
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=17 b=85
+
+Cap identification, intensity difference is 3
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=84
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=17 b=84
+
+Cap identification, intensity difference is 5
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=85
+
+Cap identification, intensity difference is 7
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=17 b=85
+
+Cap identification, intensity difference is 2
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=18 b=84
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=85
+
+Cap identification, intensity difference is 3
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=17 b=84
+
+Cap identification, intensity difference is 0
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=17 b=85
+
+Cap identification, intensity difference is 3
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=85
+
+Cap identification, intensity difference is 3
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=6 g=17 b=85
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=84
+
+Cap identification, intensity difference is 2
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=6 g=17 b=85
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=84
+
+Cap identification, intensity difference is 6
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=84
+
+Cap identification, intensity difference is 0
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=6 g=18 b=84
+
+Cap identification, intensity difference is 2
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=17 b=85
+
+Cap identification, intensity difference is 3
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=17 b=85
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=18 b=85
+
+Cap identification, intensity difference is 3
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=18 b=84
+
+Cap identification, intensity difference is 3
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=17 b=85
+
+Cap identification, intensity difference is 5
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=17 b=82
+
+Cap identification, intensity difference is 3
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=16 b=82
+
+Cap identification, intensity difference is 6
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=8 g=16 b=80
+
+Cap identification, intensity difference is 3
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=15 b=76
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=6 g=15 b=74
+
+Cap identification, intensity difference is 5
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=6 g=16 b=77
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=6 g=15 b=78
+
+Cap identification, intensity difference is 2
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=6 g=15 b=76
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=15 b=77
+
+Cap identification, intensity difference is 1
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 150
+Colour identified is r=7 g=15 b=76
+
+Cap identification, intensity difference is 2
+Cap identified! Analysing colour...
+Cap parameters: diff2: 85, diff: 135
+Colour identified is r=6 g=15 b=77
+
+Cap identification, intensity difference is 20
+Cap identified! Analysing colour...
+Cap parameters: diff2: 95, diff: 115
+Colour identified is r=14 g=14 b=63
+
+Cap identification, intensity difference is 23
+Cap identified! Analysing colour...
+Cap parameters: diff2: 5, diff: 50
+Colour identified is r=98 g=51 b=40
+
+Cap identification, intensity difference is 26
+Cap identified! Analysing colour...
+Cap parameters: diff2: 10, diff: 60
+Colour identified is r=78 g=44 b=48
+
+Cap identification, intensity difference is 31
+Cap identified! Analysing colour...
+Cap parameters: diff2: 80, diff: 85
+Colour identified is r=30 g=33 b=60
+
+Cap identification, intensity difference is 122
+Cap identification, intensity difference is 117
+Cap identification, intensity difference is 121
+Cap identification, intensity difference is 113
+Cap identification, intensity difference is 121
+Cap identification, intensity difference is 116
+Cap identification, intensity difference is 117
+Cap identification, intensity difference is 120
+Cap identification, intensity difference is 113
+Cap identification, intensity difference is 117
+Cap identification, intensity difference is 113
+Cap identification, intensity difference is 112
+Cap identification, intensity difference is 121
+Cap identification, intensity difference is 124
+Cap identification, intensity difference is 122
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 145
+Cap identification, intensity difference is 141
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 125
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 127
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 125
+Cap identification, intensity difference is 129
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 130
+Cap identification, intensity difference is 124
+Cap identification, intensity difference is 126
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 132
+Cap identification, intensity difference is 137
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 144
+Cap identification, intensity difference is 142
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 141
+Cap identification, intensity difference is 131
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 133
+Cap identification, intensity difference is 141
+Cap identification, intensity difference is 143
+Cap identification, intensity difference is 138
+Cap identification, intensity difference is 138
+Cap identification, intensity difference is 140
+Cap identification, intensity difference is 128
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 141
+Cap identification, intensity difference is 141
+Cap identification, intensity difference is 137
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 138
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 142
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 140
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 137
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 135
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 142
+Cap identification, intensity difference is 136
+Cap identification, intensity difference is 137
+Cap identification, intensity difference is 137
+Cap identification, intensity difference is 141
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 138
+Cap identification, intensity difference is 143
+Cap identification, intensity difference is 137
+Cap identification, intensity difference is 139
+Cap identification, intensity difference is 134
+Cap identification, intensity difference is 140
+Cap identification, intensity difference is 132
