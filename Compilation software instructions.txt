@@ -1,0 +1,13 @@
+Software required for compilation:
+
+MinGW32, download from mingw32 site, install WITH gui, and under packages select the basic mingw option to install (description will include C compiler). Add to path. 
+
+Make from the gnu site, install.
+
+In cmd run "make capsorter.exe" to compile capsorter.exe.
+
+WinAVR from sourceforge, add bin folder to path, and msys-1.0.dll from https://www.madwizard.org/electronics/articles/winavrvista. Replace msys-1.0.dll in the WinAVR directory (this fixes the shell (sh) bug).
+
+Avrdude separately from http://download.savannah.gnu.org/releases/avrdude/ latest release, since this is the most recent avrdude (the one that comes with winavr doesn't recognise atmega8u2). Add this folder to path, and make it higher than the previous winavr/bin path (so that this avrdude is found first)
+
+OpenCV (installation detailed in another file)

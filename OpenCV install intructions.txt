@@ -1,0 +1,30 @@
+Installing OpenCV libraries for use with C programs on Windows 10 using gcc
+
+1.Download and install CMake
+2.Download and install gcc (comp1511 webcms website has directions)
+3.Download and install Microsoft Visual Studio (it will take a while to download, and requires a lot of storage)
+4.Download OpenCV 2.4.13.6 from OpenCV Releases site (Windows button) (it will download from SourceForge)
+5.Run downloaded .exe, direct it to extract to a folder you want
+6.In a terminal, start the cmake gui by typing cmake-gui
+7.In Source textbox, browse for the extracted directory/opencv/Source
+8.In Build textbox, browse for extracted directory/opencv/build
+9.Click Configure, in the dialog box select Visual Studio as the generator and Use default native compilers
+10.Click Finish, CMake will take a while to process
+11.Click Configure until all items in the list box are no longer red
+12.Click Generate
+//OpenCV is now installed but we need to adjust some windows settings so we can find the libraries we need
+14.Hit Windows key, and search for environment, click on Edit the system environment variables
+15.In the dialog box click Environment Variables (bottom right)
+16.In the top list box, double click on the Path variable
+17.Click New, and then browse to extracted directory/opencv/build/x86/vc14/bin
+18.Click Ok for each of the 3 dialog boxes associated with the Environment Variables
+19.Restart terminal, navigate to directory webcam.c is located and run the following command:
+	gcc -L "C:/path to extracted folder/opencv/build/x86/vc14/lib" -I "C:/path to extracted folder/opencv/build/include" webcam.c -o webcam -lopencv_core2413d -lopencv_imgproc2413d -lopencv_highgui2413d -lopencv_ml2413d -lopencv_video2413d -lopencv_features2d2413d -lopencv_calib3d2413d -lopencv_objdetect2413d -lopencv_contrib2413d -lopencv_legacy2413d -lopencv_flann2413d
+	where you substitute your path to extracted folder. This is the generic form of a gcc compile command for opencv
+		-L tells gcc where to look for libraries
+		-I tells gcc where to look for included header files
+		-l tells gcc to link a specific header file
+20.Compile should give no errors. If errors are given, ensure that the paths given in the gcc command as well as the one appended to the environment variable Path are correct (you should be able to navigate to them in file explorer) and check spelling of each -l gcc argument (or send me a pic of error)
+21.Run webcam in terminal, window should appear showing webcam footage, when esc is pressed it will close and the last shown image will be saved as test.bmp
+22.Note that webcam.c is designed to work with a secondary camera (in my case the primary is the webcam on my laptop, the secondary is a usb webcam I have plugged in), if you want to use the primary camera change the argument from cvCaptureFromCAM to 0, recompile and rerun
+23.Side note: you can copy paste to and from terminal in windows 10 to avoid retyping lengthy compile commands
