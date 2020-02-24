@@ -1,0 +1,5 @@
+add_executable(capsorter capsorter.c)
+find_package(gdi32)
+find_package(usb)
+target_link_libraries(GUI PUBLIC ${LIBUSB_LIBRARY_DIR}/lib/gcc/libusb.a ${USBDRV_LIBRARY_DIR}/usbdrv.h gdi32 usb)
+target_include_directories(GUI PUBLIC ${LIBUSB_LIBRARY_DIR}/include)

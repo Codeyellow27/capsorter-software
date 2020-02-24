@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <string.h>
-#include  <usb.h>
+#include <usb.h>
 #include <sys/types.h>
 #include <sys/timeb.h>
 
