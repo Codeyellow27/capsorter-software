@@ -27,7 +27,7 @@
    This delay is rescaled to mm, and subtracted from 
    SOLn_DIST to calculate the distance the cap has 
    yet to travel. This is converted to time (ms) 
-   by multiplying by VELOCITY_INV, a GENERIC_CAP_DELAY 
+   by OFFSET_SCALING_FACTORtiplying by VELOCITY_INV, a GENERIC_CAP_DELAY 
    and SOLn_TRIM are applied and this value is added to curr_time.
 
 */
@@ -63,19 +63,19 @@
 #define SOL5_TRIM -33
 #define SOL6_TRIM -67
 #define SOL7_TRIM -72
-#define SOL8_TRIM 0
-#define SOL9_TRIM 0
-#define SOL10_TRIM 0
-#define SOL11_TRIM 0
-#define SOL12_TRIM 0
-#define SOL13_TRIM 0
-#define SOL14_TRIM 0
-#define SOL15_TRIM 0
-#define SOL16_TRIM 0
-#define SOL17_TRIM 0
-#define SOL18_TRIM 0
-#define SOL19_TRIM 0
-#define SOL20_TRIM 0
+#define SOL8_TRIM -95
+#define SOL9_TRIM -85
+#define SOL10_TRIM -133
+#define SOL11_TRIM -110
+#define SOL12_TRIM -149
+#define SOL13_TRIM -150
+#define SOL14_TRIM -150
+#define SOL15_TRIM -150
+#define SOL16_TRIM -150
+#define SOL17_TRIM -150
+#define SOL18_TRIM -150
+#define SOL19_TRIM -150
+#define SOL20_TRIM -150 //thats a good place to start
 #define VELOCITY_INV 1.15625
 //#define LENGTH/PERIOD LENGTH/PERIOD //m/s
 
@@ -327,12 +327,24 @@ ISR (TIMER0_OVF_vect) {
 		while (item.value <= curr_time) {
 			PQDequeue(q);
 			if (item.key > 0) {
-				PORTD |= 1 << (item.key-1);
+				if (item.key <= 8) {
+					PORTD |= 1 << (item.key-1);
+				} else if (item.key <= 16) {
+					PORTB |= 1 << (item.key-9);
+				} else {
+					PORTC |= 1 << (item.key-13);
+				}
 				item.key = 0-item.key;
 				item.value = curr_time+SOLENOID_ON_DURATION;
 				PQAdd(q, item);
 			} else {
-				PORTD &= ~(1 << (-1-item.key));
+				if (item.key >= -8) {
+					PORTD &= ~(1 << (-1-item.key));
+				} else if (item.key >= -16) {
+					PORTB &= ~(1 << (-9-item.key));
+				} else {
+					PORTC &= ~(1 << (-13-item.key));
+				}
 			}
 			if (PQIsEmpty(q)) break;
 			item = PQPeek(q);
@@ -350,16 +362,18 @@ int main(void)
 	//_delay_ms(2000);
     DDRB = 0xFF;
     DDRD = 0xFF;
+	DDRC |= 0xF4;
     PORTD = 0;
-    PORTD |= 0x80;
+	PORTB = 0;
+	PORTC &= ~0xF4;
+    PORTC |= 0x4;
     _delay_ms(500);
-    PORTD &= ~0x80;
+    PORTC &= ~0x4;
     _delay_ms(500);
-    PORTB = 0;
 	q = PQNew();
-	PORTD |= 0x80;
+	PORTC |= 0x4;
     _delay_ms(100);
-    PORTD &= ~0x80;
+    PORTC &= ~0x4;
     _delay_ms(100);
 
 	curr_time = 0;
@@ -388,7 +402,7 @@ void SetupHardware(void)
 	/* Disable clock division */
 	//clock_prescale_set(clock_div_1);
 #elif (ARCH == ARCH_XMEGA)
-	/* Start the PLL to multiply the 2MHz RC oscillator to 32MHz and switch the CPU core to run from it */
+	/* Start the PLL to OFFSET_SCALING_FACTORtiply the 2MHz RC oscillator to 32MHz and switch the CPU core to run from it */
 	XMEGACLK_StartPLL(CLOCK_SRC_INT_RC2MHZ, 2000000, F_CPU);
 	XMEGACLK_SetCPUClockSource(CLOCK_SRC_PLL);
 
@@ -435,69 +449,69 @@ void EVENT_USB_Device_ControlRequest(void)
 	Endpoint_ClearIN();
 	switch(item.key) { // custom command is in the bRequest field
 		case 1:
-			item.value = curr_time+VELOCITY_INV*(SOL1_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL1_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL1_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL1_TRIM;
 			break;
 		case 2:
-			item.value = curr_time+VELOCITY_INV*(SOL2_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL2_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL2_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL2_TRIM;
 			break;
 		case 3:
-			item.value = curr_time+VELOCITY_INV*(SOL3_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL3_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL3_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL3_TRIM;
 			break;
 		case 4:
-			item.value = curr_time+VELOCITY_INV*(SOL4_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL4_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL4_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL4_TRIM;
 			break;
 		case 5:
-			item.value = curr_time+VELOCITY_INV*(SOL5_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL5_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL5_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL5_TRIM;
 			break;
 		case 6:
-			item.value = curr_time+VELOCITY_INV*(SOL6_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL6_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL6_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL6_TRIM;
 			break;
 		case 7:
-			item.value = curr_time+VELOCITY_INV*(SOL7_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL7_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL7_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL7_TRIM;
 			break;
 		case 8:
-			item.value = curr_time+VELOCITY_INV*(SOL8_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL8_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL8_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL8_TRIM;
 			break;
 		case 9:
-			item.value = curr_time+VELOCITY_INV*(SOL9_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL9_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL9_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL9_TRIM;
 			break;
 		case 10:
-			item.value = curr_time+VELOCITY_INV*(SOL10_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL10_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL10_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL10_TRIM;
 			break;
 		case 11:
-			item.value = curr_time+VELOCITY_INV*(SOL11_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL11_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL11_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL11_TRIM;
 			break;
 		case 12:
-			item.value = curr_time+VELOCITY_INV*(SOL12_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL12_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL12_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL12_TRIM;
 			break;
 		case 13:
-			item.value = curr_time+VELOCITY_INV*(SOL13_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL13_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL13_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL13_TRIM;
 			break;
 		case 14:
-			item.value = curr_time+VELOCITY_INV*(SOL14_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL14_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL14_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL14_TRIM;
 			break;
 		case 15:
-			item.value = curr_time+VELOCITY_INV*(SOL15_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL15_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL15_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL15_TRIM;
 			break;
 		case 16:
-			item.value = curr_time+VELOCITY_INV*(SOL16_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL16_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL16_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL16_TRIM;
 			break;
 		case 17:
-			item.value = curr_time+VELOCITY_INV*(SOL17_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL17_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL17_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL17_TRIM;
 			break;
 		case 18:
-			item.value = curr_time+VELOCITY_INV*(SOL18_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL18_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL18_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL18_TRIM;
 			break;
 		case 19:
-			item.value = curr_time+VELOCITY_INV*(SOL19_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL19_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL19_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL19_TRIM;
 			break;
 		case 20:
-			item.value = curr_time+VELOCITY_INV*(SOL20_DIST-offset*mul)-GENERIC_CAP_DELAY+SOL20_TRIM;
+			item.value = curr_time+VELOCITY_INV*(SOL20_DIST-offset*OFFSET_SCALING_FACTOR)-GENERIC_CAP_DELAY+SOL20_TRIM;
 			break;
 		}
 	if (item.value < curr_time) item.value = curr_time;
-	if (item.key <= 7 && item.key > 0) {
+	if (item.key <= 16 && item.key > 0) {
 		PQAdd(q, item);
-		PORTD ^= 0x80;
+		PORTC ^= 0x4;
 	}
 }

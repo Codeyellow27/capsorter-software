@@ -19,7 +19,7 @@ CMDLINE = capsorter.exe
 all: main.hex $(CMDLINE)
 
 ml : ml.c
-	gcc -o $@ -L "C:/Users/jmegg/Downloads/opencv/build/x86/vc14/lib" -I "C:/Users/jmegg/Downloads/opencv/build/include" ml.c -lopencv_core2413d -lopencv_imgproc2413d -lopencv_highgui2413d -lopencv_ml2413d -lopencv_video2413d -lopencv_features2d2413d -lopencv_calib3d2413d -lopencv_objdetect2413d -lopencv_contrib2413d -lopencv_legacy2413d -lopencv_flann2413d
+	gcc -o $@ -L "C:/opencv/build/x86/vc14/lib" -I "C:/opencv/build/include" ml.c -lopencv_core2413d -lopencv_imgproc2413d -lopencv_highgui2413d -lopencv_ml2413d -lopencv_video2413d -lopencv_features2d2413d -lopencv_calib3d2413d -lopencv_objdetect2413d -lopencv_contrib2413d -lopencv_legacy2413d -lopencv_flann2413d
 
 
 # With this, you can flash the firmware by just typing "make flash" on command-line

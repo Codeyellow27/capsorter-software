@@ -313,10 +313,19 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam)
 	return 0;
 }
 
+typedef void (WINAPI *PGNSI)(PCWSTR);
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 	LPSTR lpCmdLine, int nCmdShow)
 {
+	PGNSI pGNSI;
+	pGNSI = (PGNSI)GetProcAddress(GetModuleHandle(TEXT("kernel32.dll")), "AddDllDirectory");
+	char cwd[1000];
+	_getcwd(cwd, strlen(cwd));
+	sprintf(cwd, "%s\\libusb\\libusb-win32-bin-1.2.6.0\\bin\\amd64");
+	if (pGNSI != NULL) pGNSI((PCWSTR)cwd);
+	else printf("Nope\n");
+	printf("executed\n");
 	WNDCLASSEX wc;
 	MSG Msg;
 

@@ -8,6 +8,7 @@
 #include  <usb.h>
 #include <sys/types.h>
 #include <sys/timeb.h>
+#include <direct.h>
 
 #define IDR_MYMENU                      101
 #define ID_FILE_EXIT                    40001
