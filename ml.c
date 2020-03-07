@@ -69,7 +69,7 @@
     ** Note - intensities are red intensities
 */
 #define ANALYSIS_INTENSITY_DIFF 40
-#define MAX_CAP_PIXEL_LENGTH 60
+#define MAX_CAP_PIXEL_LENGTH 100
 #define MIN_CAP_PIXEL_LENGTH 10
 #define X_PIXEL_JUMP  5
 
