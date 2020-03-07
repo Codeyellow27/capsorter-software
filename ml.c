@@ -69,7 +69,7 @@
     ** Note - intensities are red intensities
 */
 #define ANALYSIS_INTENSITY_DIFF 40
-#define MAX_CAP_PIXEL_LENGTH 200
+#define MAX_CAP_PIXEL_LENGTH 60
 #define MIN_CAP_PIXEL_LENGTH 10
 #define X_PIXEL_JUMP  5
 
@@ -211,7 +211,7 @@ void analyse(IplImage* image) {
     }
     diff += diff2;
     if (diff < MIN_CAP_PIXEL_LENGTH) return;
-    if (diff > MAX_CAP_PIXEL_LENGTH) diff = MAX_CAP_PIXEL_LENGTH;
+    if (diff > MAX_CAP_PIXEL_LENGTH) return;
     //analyse rectangle
     offset = (diff2-diff/2)*0.3;
     if (DEBUG) fprintf(fp, "Cap parameters: diff2 (left offset from centre of image): %d, diff (length of cap (pixels)): %d\n", diff2, diff);
